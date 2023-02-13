@@ -13,8 +13,8 @@ from Inverter import Inverter
 
 controller = Controller("192.168.58.95", 60) #ip, max temperature
 dimmer = Dimmer(2000) #dimmer capacity in watts
-#inverterM = Inverter(3500, 400) # export limit in watts, reserve
-inverterM = Inverter(0, 0) # for test purposes
+inverterM = Inverter(3500, 400) # export limit in watts, reserve
+#inverterM = Inverter(0, 0) # for test purposes
 
 
 
